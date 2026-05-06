@@ -8,6 +8,7 @@
 </head>
 <body class="bg-zinc-950 text-white font-sans">
 
+  <!-- Navigation -->
   <nav class="fixed top-0 w-full bg-zinc-900/90 backdrop-blur-md z-50 border-b border-zinc-800">
     <div class="max-w-5xl mx-auto px-4 py-4 flex justify-between items-center">
       <h1 class="text-2xl font-bold">Ferhat Saygılı</h1>
@@ -20,6 +21,7 @@
     </div>
   </nav>
 
+  <!-- Hero -->
   <section id="start" class="min-h-screen flex items-center pt-20">
     <div class="max-w-5xl mx-auto px-4 grid md:grid-cols-2 gap-8 items-center">
       <div class="space-y-6 text-center md:text-left">
@@ -27,11 +29,15 @@
           Hallo, ich bin <span class="text-emerald-400">Ferhat Saygılı</span>
         </h2>
         <p class="text-2xl text-emerald-400">Projekt Codierung</p>
-        <p class="text-base text-zinc-300">
+        <p class="text-base sm:text-lg text-zinc-300">
           Ich fange heute an zu programmieren<br>
           und lerne ab heute Codes!<br><br>
           Mein großes Ziel: Bis 2027 eigene SaaS-Produkte entwickeln.
         </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+          <a href="#projekte" class="bg-emerald-500 hover:bg-emerald-600 px-8 py-4 rounded-2xl font-semibold text-center">Meine Projekte</a>
+          <a href="#kontakt" class="border border-zinc-700 hover:border-white px-8 py-4 rounded-2xl font-semibold text-center">Kontakt</a>
+        </div>
       </div>
 
       <div class="flex justify-center">
@@ -39,6 +45,44 @@
           💻
         </div>
       </div>
+    </div>
+  </section>
+
+  <!-- Über mich -->
+  <section id="ueber-mich" class="py-20 bg-zinc-900">
+    <div class="max-w-5xl mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-8">Über mich</h2>
+      <p class="text-lg text-zinc-300 max-w-2xl mx-auto">
+        Ich bin Ferhat Saygılı und bugün programlamaya ilk adımımı attım.<br><br>
+        Her gün biraz daha iyi oluyorum. Hedef 2027!
+      </p>
+    </div>
+  </section>
+
+  <!-- Projekte -->
+  <section id="projekte" class="py-20 bg-zinc-950">
+    <div class="max-w-5xl mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-8">Meine Projekte</h2>
+      <p class="text-zinc-400 mb-12">İlk projem bu site. Daha fazlası yakında geliyor...</p>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="bg-zinc-900 p-6 rounded-3xl">
+          <h3 class="text-xl font-semibold">01 — Bu Portfolyo Sitesi</h3>
+          <p class="text-zinc-400 text-sm mt-2">Sıfırdan yaptığım ilk canlı proje.</p>
+        </div>
+        <div class="bg-zinc-900 p-6 rounded-3xl opacity-50">
+          <h3 class="text-xl font-semibold">02 — Gelecek Proje</h3>
+          <p class="text-zinc-400 text-sm mt-2">Yakında eklenecek...</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontakt -->
+  <section id="kontakt" class="py-20 bg-zinc-900">
+    <div class="max-w-5xl mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-8">Kontakt</h2>
+      <p class="text-zinc-300 mb-8">Bana ulaşmak istersen yaz!</p>
+      <a href="mailto:deine@email.com" class="inline-block bg-emerald-500 hover:bg-emerald-600 px-10 py-4 rounded-2xl font-semibold">E-Mail yaz</a>
     </div>
   </section>
 
