@@ -5,93 +5,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ferhat Saygılı - Portfolyo</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="style.css">
 </head>
 <body class="bg-zinc-950 text-white font-sans">
 
-  <!-- Navigation -->
   <nav class="fixed top-0 w-full bg-zinc-900/90 backdrop-blur-md z-50 border-b border-zinc-800">
-    <div class="max-w-5xl mx-auto px-6 py-5 flex justify-between items-center">
-      <h1 class="text-3xl font-bold">Ferhat Saygılı</h1>
-      <div class="space-x-8 text-lg">
-        <a href="#start" class="hover:text-emerald-400 transition">Start</a>
-        <a href="#ueber-mich" class="hover:text-emerald-400 transition">Über mich</a>
-        <a href="#projekte" class="hover:text-emerald-400 transition">Projekte</a>
-        <a href="#kontakt" class="hover:text-emerald-400 transition">Kontakt</a>
+    <div class="max-w-5xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Ferhat Saygılı</h1>
+      <div class="flex gap-6 text-sm">
+        <a href="#start" class="hover:text-emerald-400">Start</a>
+        <a href="#ueber-mich" class="hover:text-emerald-400">Über mich</a>
+        <a href="#projekte" class="hover:text-emerald-400">Projekte</a>
+        <a href="#kontakt" class="hover:text-emerald-400">Kontakt</a>
       </div>
     </div>
   </nav>
 
-  <!-- Hero -->
   <section id="start" class="min-h-screen flex items-center pt-20">
-    <div class="max-w-5xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
-      <div class="space-y-6">
-        <h2 class="text-5xl md:text-6xl font-bold leading-tight">
+    <div class="max-w-5xl mx-auto px-4 grid md:grid-cols-2 gap-8 items-center">
+      <div class="space-y-6 text-center md:text-left">
+        <h2 class="text-4xl sm:text-5xl font-bold leading-tight">
           Hallo, ich bin <span class="text-emerald-400">Ferhat Saygılı</span>
         </h2>
-        <p class="text-3xl text-emerald-400">Projekt Codierung</p>
-        <p class="text-lg text-zinc-300 max-w-lg">
+        <p class="text-2xl text-emerald-400">Projekt Codierung</p>
+        <p class="text-base text-zinc-300">
           Ich fange heute an zu programmieren<br>
           und lerne ab heute Codes!<br><br>
           Mein großes Ziel: Bis 2027 eigene SaaS-Produkte entwickeln.
         </p>
-        <div class="flex gap-4 pt-6">
-          <a href="#projekte" class="bg-emerald-500 hover:bg-emerald-600 px-8 py-4 rounded-2xl font-semibold text-lg transition">
-            Meine Projekte
-          </a>
-          <a href="#kontakt" class="border-2 border-zinc-700 hover:border-white px-8 py-4 rounded-2xl font-semibold text-lg transition">
-            Kontakt
-          </a>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+          <a href="#projekte" class="bg-emerald-500 hover:bg-emerald-600 px-8 py-4 rounded-2xl font-semibold text-center">Meine Projekte</a>
+          <a href="#kontakt" class="border border-zinc-700 hover:border-white px-8 py-4 rounded-2xl font-semibold text-center">Kontakt</a>
         </div>
       </div>
+
       <div class="flex justify-center">
-        <div class="w-80 h-80 bg-gradient-to-br from-emerald-400 via-cyan-400 to-teal-500 rounded-3xl shadow-2xl rotate-6 flex items-center justify-center text-7xl">
+        <div class="w-64 h-64 sm:w-80 sm:h-80 bg-gradient-to-br from-emerald-400 via-cyan-400 to-teal-500 rounded-3xl shadow-2xl flex items-center justify-center text-6xl">
           💻
         </div>
       </div>
-    </div>
-  </section>
-
-  <!-- Über mich -->
-  <section id="ueber-mich" class="py-24 bg-zinc-900">
-    <div class="max-w-5xl mx-auto px-6">
-      <h2 class="text-4xl font-bold text-center mb-12">Über mich</h2>
-      <div class="max-w-3xl mx-auto text-center text-lg text-zinc-300">
-        <p>Ich bin Ferhat Saygılı und habe heute meinen ersten großen Schritt in die Welt des Programmierens gemacht.</p>
-        <p class="mt-6">Ich lerne systematisch Full-Stack Entwicklung und KI-Technologien. Jeden Tag baue ich neue Projekte und werde besser.</p>
-        <p class="mt-6 font-semibold text-emerald-400">Hedef 2027 ist gestartet!</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Projekte -->
-  <section id="projekte" class="py-24">
-    <div class="max-w-5xl mx-auto px-6">
-      <h2 class="text-4xl font-bold text-center mb-12">Meine Projekte</h2>
-      <p class="text-center text-zinc-400 mb-12">Hier werden bald meine ersten Projekte erscheinen...</p>
-      <div class="grid md:grid-cols-2 gap-8">
-        <div class="bg-zinc-900 p-8 rounded-3xl">
-          <div class="h-52 bg-gradient-to-br from-emerald-400 to-cyan-400 rounded-2xl mb-6 flex items-center justify-center text-5xl">🌐</div>
-          <h3 class="text-2xl font-semibold">01 — Persönliche Webseite</h3>
-          <p class="text-zinc-400 mt-3">Diese Seite, die du gerade siehst. Mein allererstes Projekt.</p>
-        </div>
-        <div class="bg-zinc-900 p-8 rounded-3xl opacity-50">
-          <div class="h-52 bg-zinc-800 rounded-2xl mb-6"></div>
-          <h3 class="text-2xl font-semibold">02 — Nächstes Projekt</h3>
-          <p class="text-zinc-400 mt-3">Wird bald hinzugefügt...</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Kontakt -->
-  <section id="kontakt" class="py-24 bg-zinc-900">
-    <div class="max-w-5xl mx-auto px-6 text-center">
-      <h2 class="text-4xl font-bold mb-8">Kontakt</h2>
-      <p class="text-xl text-zinc-300 mb-10">Schreib mir gerne, wenn du Tipps hast oder zusammen lernen möchtest!</p>
-      <a href="mailto:deine@email.com" class="inline-block bg-emerald-500 hover:bg-emerald-600 px-10 py-5 rounded-2xl font-semibold text-lg transition">
-        E-Mail schreiben
-      </a>
     </div>
   </section>
 
